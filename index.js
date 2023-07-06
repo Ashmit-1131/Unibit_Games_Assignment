@@ -92,3 +92,6 @@ function DoubledCombo(array, Target_value) {
   }
   const combinations = DoubledCombo(singleArr,Tvalue);
 console.log("Second Combination For 8 are:-",combinations);
+
+//The backtrack function is called recursively..
+//Therefore, the time complexity of function DoubledCombo can be approximated as O(2^n), where n is the length of the array. This represents an exponential time complexity, 
